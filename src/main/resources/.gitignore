@@ -1,0 +1,4 @@
+
+# the confidential file has a property named "openai.key"
+/confidential.properties
+/confidential.txt
