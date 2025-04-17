@@ -35,21 +35,11 @@ public class GenerateImage {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		//(new GenerateImage()).test();
 		//(new GenerateImage()).getImages("A photo realistic image of Juan Diego and Our Lady of Guadalupe. Juan Diego was a native.", 2);
-		(new GenerateImage()).getImages("A silhouette image of Juan Diego and Our Lady of Guadalupe.", 2);
-	}
-
-	
-	private void test() {
-		String j = " {\"created\": 1589478378,"
-				+ " \"data\": ["
-				+ "  { \"b64_json\": \"https://...\" },"
-				+ "  { \"b64_json\": \"https://...\" }"
-				+ " ]"
-				+ "}";
-		ImageResponse ir = gson.fromJson(j, ImageResponse.class);
-		System.out.println(ir);
+		//(new GenerateImage()).getImages("A silhouette image of Juan Diego and Our Lady of Guadalupe.", 2);
+		//(new GenerateImage()).getImages("A photo realistic image of a 2025 Mitsubishi 3000GT.", 2);
+		//(new GenerateImage()).getImages("A photo realistic image of a red 2025 Mitsubishi 3000GT. Add fire flames.", 2);
+		(new GenerateImage()).getImages("A photo realistic image of a red 2025 Mitsubishi 3000GT. Add fire flames to the paint job.", 2);
 	}
 
 	public long getImages(String prompt, int numOfImages) throws InterruptedException {
