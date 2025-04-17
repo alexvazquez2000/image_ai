@@ -17,6 +17,11 @@ import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+/**
+ * Generate images from a prompt using OpenAI
+ * 
+ * @author Alex Vazquez <vazqueza2000@gmail.com>
+ */
 public class GenerateImage {
 
 	//https://platform.openai.com/docs/api-reference/images/create

@@ -10,6 +10,11 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Base64;
 
+/**
+ * Utility class to read and write files
+ * 
+ * @author Alex Vazquez <vazqueza2000@gmail.com>
+ */
 public class FileUtils {
 	private static int counter = 0;
 
@@ -19,7 +24,7 @@ public class FileUtils {
 		//only static functions, prevent instantiation
 	}
 
-	public static String readFile(String fileName) {
+	public static String readTextFile(String fileName) {
 		try {
 			return Files.readString(Path.of(fileName));
 		} catch (IOException e) {

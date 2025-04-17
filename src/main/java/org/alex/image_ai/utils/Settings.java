@@ -1,11 +1,13 @@
 package org.alex.image_ai.utils;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * 
+ * @author Alex Vazquez <vazqueza2000@gmail.com>
+ */
 public class Settings {
 	private static final String PROPERTIES_FILE = "confidential.properties";
 

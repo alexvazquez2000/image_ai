@@ -1,5 +1,10 @@
 package org.alex.image_ai.beans;
 
+/**
+ * Based on info on https://platform.openai.com/docs/api-reference/images/create
+ * 
+ * @author Alex Vazquez <vazqueza2000@gmail.com>
+ */
 public enum ImageSize {
 	SMALL256X256("256x256"),
 	MED512X512("512x512"),
